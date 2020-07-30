@@ -27,7 +27,4 @@ export const getUPODurl = (date) => async (dispatch) => {
     dispatch(setAPODurl(response, date));
 };
 
-/*const setAPODdate = (APODdate) => ({type: SET_APOD_DATE, APODdate})*/
-
-
 export default apodReducer;

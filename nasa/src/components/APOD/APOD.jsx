@@ -4,7 +4,7 @@ import s from "./APOD.module.css"
 function APOD(props) {
     return (
         <div>
-            <img src={props.APODurl} className={s.APODimg}/>
+            <img src={props.APODurl} className={s.APODimg} alt="cosmos"/>
         </div>
     )
 }
