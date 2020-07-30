@@ -6,6 +6,7 @@ const instance = axios.create({
 
 export const apodAPI = {
     getImage(date) {
-        return instance.get(`apod?&date=${date}&api_key=U7r0O8e6ThI6XdXvKhwknLIduvRbxonGIj8UW6nc`).then(response =>response.data.hdurl);
+        return instance.get(`apod?&date=${date}&api_key=U7r0O8e6ThI6XdXvKhwknLIduvRbxonGIj8UW6nc`)
+            .then(response =>response.data.hdurl);
     }
 };
