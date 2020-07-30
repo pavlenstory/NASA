@@ -1,10 +1,10 @@
 import React from "react"
 
 
-function APOD() {
+function APOD(props) {
     return (
         <div>
-            APOD
+            <img src={props.APODurl}/>
         </div>
     )
 }
